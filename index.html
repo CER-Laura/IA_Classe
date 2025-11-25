@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina sobre les Intel·ligències Artificials">
+    <title>Intel·ligència artificial</title>
+    <link rel="stylesheet" href="estils.css">
+
+</head>
+
+<body style=" font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #ccc;
+            font-size: 16px;">
+    <header>
+        <nav>
+            <ul style="list-style-type: none;">
+                <li><a href="">ChatGPT</a></li>
+                <li><a href="">Gemini</a></li>
+                <li><a href="">Claude</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Intel·ligència artificial</h1>
+            <h2>ChatGPT</h2>
+            <p>
+                <a href="https://chat.openai.com/" target="_blank">ChatGPT</a> és un model de llenguatge desenvolupat
+                per
+                OpenAI pensat per mantenir converses naturals, ajudar amb
+                explicacions, crear continguts i donar suport en tasques educatives o creatives. Destaca per la seva
+                capacitat
+                de comprendre el context, adaptar el to i generar respostes coherents i útils en una gran varietat de
+                situacions.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="Logo de ChatGPT"
+                width="100" height="100">
+            <h2>Gemini</h2>
+            <p>
+                <a href="https://ai.google/" target="_blank">Gemini</a> és la família de models d’IA de Google,
+                dissenyada
+                per oferir un rendiment alt tant en comprensió de text
+                com en raonament multimodal. Integra text, imatges, codi i altres formats en un sol model, i està
+                optimitzat
+                per
+                funcionar tant en entorns mòbils com en aplicacions avançades que requereixen processament complex.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Gemini_sparkle_v002.svg" alt="Logo de Gemini"
+                width="100" height="100">
+            <h2>Claude</h2>
+            <p>
+                <a href="https://www.anthropic.com/" target="_blank">Claude</a> és un model d’IA creat per Anthropic,
+                dissenyat per ser segur, fiable i transparent en les seves
+                respostes. Ofereix una comprensió profunda del llenguatge, una gran capacitat de raonament i un estil de
+                conversa equilibrat. És especialment utilitzat en entorns professionals i educatius on es prioritza la
+                precisió i el comportament responsable del model.
+            </p>
+            <img src="https://acf.geeknetic.es/imgri/imagenes/auto/2025/5/29/f2b-claude-sonnet-4.jpg?f=webp"
+                alt="Logo de Claude" width="150" height="100">
+        </section>
+        <section>
+            <h2>Deixa la teva valoració</h2>
+
+            <form action="" method="get">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom">
+
+                <br><br>
+
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+
+                <br><br>
+
+                <label for="triar-ia">Quina IA vols valorar?</label>
+                <select id="triar-ia" name="triar-ia">
+                    <option value="chatgpt">ChatGPT</option>
+                    <option value="gemini">Gemini</option>
+                    <option value="claude">Claude</option>
+                </select>
+
+                <br><br>
+
+                <p>Com valores aquesta IA?</p>
+
+                <label>
+                    <input type="radio" name="valoracio" value="excel·lent">
+                    Excel·lent
+                </label>
+
+                <label>
+                    <input type="radio" name="valoracio" value="bona">
+                    Bona
+                </label>
+
+                <label>
+                    <input type="radio" name="valoracio" value="millorable">
+                    Millorable
+                </label>
+                <br><br>
+                <label for="comentari">Comentari:</label><br>
+                <textarea id="comentari" name="comentari" rows="4" cols="40" placeholder="Escriu aquí els teus comentaris..."></textarea>
+                <br><br>
+                <label>
+                    <input type="checkbox" name="novetats"> Vull rebre novetats sobre IA
+                </label>
+                <br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
