@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #ccc;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#intro p:first-letter {
+    font-size: 32px;
+}
+
+#intro p {
+    text-align: justify;
+}
+
+#intro a {
+    text-decoration: overline;
+    color: green;
+}
+
+#intro a:hover {
+    color: lightgreen;
+}
+
+#intro a:visited {
+    color: greenyellow;
+}
+
+@media (width < 600px) {
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (600px <= width <= 1280px) {
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media (width > 1280px) {
+    p {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+}
